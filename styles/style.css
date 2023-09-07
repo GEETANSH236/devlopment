@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #111827;
+}
+nav{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+ul{
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content: end;
+   gap: 30px; 
+   margin: 20px;
+   
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(100, 100, 224);
+    border: 10px solid  rgb(100, 100, 224);
+    border-radius: 20px;
+}
+.left img{
+    width: 50px;
+    height: auto;
+}
+.first{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    margin:  0px 0px 0px 150px;
+}
+.computer{
+    width: 650px;
+    margin: -90px 0 0 0;
+    height: 740px;
+}
+  
+.seconda{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    text-decoration: underline blue 15px;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    margin:none;
+}
+.row1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 15px;
+}
+#aa{
+    margin-top: 20px;
+    margin: 5px 5px 5px 5px;
+}
+.row2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.imge{
+    width: 250px;
+    height: 240px;
+   
+}
+.project1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.project1 p{
+    margin-left: 100px;
+}
+.project2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.project2 p{
+    margin-left: 100px;
+}
+
+.project3 p{
+    margin-left: 100px;
+}
+.project4 p{
+    margin-left: 100px;
+}
+
+.contactme{
+    text-decoration: underline blue 15px;
+    text-align: center;
+}
+.logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+@media screen and (max-width: 576px) {
+    .first{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .computer{
+        margin: 20px 0px 0px 0px;
+        height: 200px;
+        width:200px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    .firsttext{
+        margin-top: 30px;
+        display: flex;
+    }
+    nav ul{
+        display: none;
+    }
+    nav{
+        width: 100%;
+    }
+    .menu{
+        display: block;
+        width: 30px;
+        margin-left: 10px;
+    }
+    .hello{
+        display: block;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .lefttext{
+        text-align: center;
+        margin: 10px;
+    }
+    .lefttext h1{
+        font-size: 40px;
+    }
+    .lefttext h3{
+        font-size: 30px;
+    }
+    .imge{
+        width: 200px;
+        height: 200px;
+    }
+    .project1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .project2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+    .first{
+        margin: 10px;
+    }
+    .seconda{
+        display: flex;
+        justify-content: center;
+        font-size:30px;
+        text-decoration: underline blue 19px 0px 0px 0px;
+    }
+    .project1 p{
+        margin-left: 0px;}
+    .project2 p{
+        margin-left: 0px;
+    }
+    
+    .project3 p{
+        margin-left: 0px;
+    }
+    .project4 p{
+        margin-left:0px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .contactme{
+        text-decoration: underline blue 10px;
+        text-align: center;
+        font-size: 30px;
+        margin: 0px;
+    }
+    .logo{
+        margin: 10px;
+    }
+    .fa-brands.fa-linkedin{
+        color:#005cfa ;
+    }
+}
+    
